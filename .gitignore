@@ -1,0 +1,7 @@
+ filename.txt: Ignores a specific file.
+*.log: Ignores all files ending with .log.
+/temp/: Ignores the temp directory only at the root level.
+build/: Ignores the build directory anywhere in the project.
+!important.txt: Negates a previous ignore rule (e.g., ignore all .log files except important.log).
+# app.log
+# build/
